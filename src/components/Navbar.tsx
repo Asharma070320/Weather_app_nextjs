@@ -12,7 +12,7 @@ import { useAtom } from "jotai";
 
 type Props = { location?: string };
 
-const API_KEY = process.env.NEXT_PUBLIC_WEATHER_KEY;
+// const API_KEY = process.env.NEXT_PUBLIC_WEATHER_KEY;
 
 export default function Navbar({ location }: Props) {
   const [city, setCity] = useState("");
@@ -28,7 +28,7 @@ export default function Navbar({ location }: Props) {
     if (value.length >= 3) {
       try {
         const response = await axios.get(
-          `https://api.openweathermap.org/data/2.5/find?q=${value}&appid=${API_KEY}`
+          `https://api.openweathermap.org/data/2.5/find?q=${value}&appid=42187abaa73e8583284b42472d2542e7`
         );
 
         const suggestions = response.data.list.map((item: any) => item.name);
@@ -73,7 +73,7 @@ export default function Navbar({ location }: Props) {
         try {
           setLoadingCity(true);
           const response = await axios.get(
-            `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}`
+            `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=42187abaa73e8583284b42472d2542e7`
           );
           setTimeout(() => {
             setLoadingCity(false);
