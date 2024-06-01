@@ -42,6 +42,10 @@ You can access the live demo of the application https://weather-app-nextjs-livid
 Changing the location
 ![Screenshot 2024-06-01 124810](https://github.com/Asharma070320/Weather_app_nextjs/assets/127501344/2edc199b-9ed3-4c7f-8c21-e4c7f0d885a8)
 
+Suggestion Box
+![Screenshot 2024-06-01 125436](https://github.com/Asharma070320/Weather_app_nextjs/assets/127501344/7821b7ab-bd96-4315-b5e7-21d8869e02a0)
+
+
 
 ![Screenshot 2024-06-01 124030](https://github.com/Asharma070320/Weather_app_nextjs/assets/127501344/398844f2-fea5-474b-9eb4-51fa9ce2c497)
 
